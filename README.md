@@ -1,4 +1,4 @@
-# CEP-draw-draw
+# CEP-draw-grid
 
 #### Расширение для проекирования залов в Adobe Illustrator на базе Adobe CEP
 
