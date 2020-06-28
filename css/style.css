@@ -1,0 +1,122 @@
+.block-container {
+    display: flex;
+    min-height: 22px;
+    border-bottom: 1px solid #4c4c4c;
+    border-top: 1px solid #505050;
+    padding-left: 8px;
+    align-items: center;
+    margin-right: 8px;
+    flex-flow: row wrap;
+    padding: 14px 0 14px 8px;
+}
+
+.button-label {
+    display: flex;
+    border-radius: 2px;
+    width: 22px;
+    height: 22px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+}
+
+input[type="radio"]:checked + label {
+    background: #303030;
+}
+
+input[type="radio"]:checked + label .st1 {
+    fill: #fff
+}
+
+a.button-label:hover {
+    background: #303030;;
+}
+
+input[type="checkbox"] {
+    outline: 1px solid #fc0;
+}
+
+input[type="checkbox"]:checked + label {
+    background: #303030;
+}
+
+input[type="checkbox"]:checked + label .st1 {
+    fill: #fff
+}
+
+#curveCircleAngle,
+#curveCirclesButton {
+    /*display: none;*/
+}
+
+input[type="checkbox"]:checked + label + #curveCircleAngle {
+    display: block;
+}
+
+svg.button-icon {
+    width: 14px;
+    padding: 2px;
+}
+
+.st1 {
+    fill:#eff1f1;
+}
+
+.block-name {
+    font-size: 11px;
+}
+
+.block-inner {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 8px 0;
+}
+
+.divider {
+    width: 100%;
+}
+
+.mt4 {
+    margin-top: 4px;
+}
+
+.mt8 {
+    margin-top: 8px;
+}
+
+.mb8 {
+    margin-bottom: 8px;
+}
+
+.mr8 {
+    margin-right: 8px;
+}
+
+.w48 {
+    width: 48px;
+}
+
+.w64 {
+    width: 64px;
+}
+
+.w80 {
+    width: 80px;
+}
+
+.w96 {
+    width: 96px;
+}
+
+.w128 {
+    width: 128px;
+}
+
+.a-left {
+    text-align: left;
+}
+
+.a-right {
+    text-align: right;
+}
